@@ -1,0 +1,21 @@
+.FLUID_theImageItself {
+	display: none;
+	&.active {
+		display: block;
+	}
+}
+.FLUID_imageContainer {
+	position: relative;
+}
+.FLUID_loader {
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	.loader-image {
+		margin: auto;
+	}
+}
